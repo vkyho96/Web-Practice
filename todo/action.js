@@ -1,23 +1,24 @@
 var toggle = document.getElementsByTagName('li');
+ // keep resetting... why?
+ 
+// for (var i = 0; i < toggle.length; i++){
+//
+// 	toggle[i].addEventListener("mouseover", function(){
+// 			this.classList = "hover-over";
+// 	});
+//
+// 	toggle[i].addEventListener("mouseout", function(){
+// 			this.classList = "default";
+// 		});
+//
+// }
 
 for (var i = 0; i < toggle.length; i++){
+
 toggle[i].addEventListener("click", function(){
-		this.classList.add("green");
+		this.classList.toggle("clicked");
 });
-
-
-
-toggle[i].addEventListener("mouseover", function(){
-		this.style.color = "blue";
-});
-
-
-toggle[i].addEventListener("mouseout", function(){
-		this.style.color = "black";
-	});
-
 }
-
 
 
 //mouseover
