@@ -68,9 +68,7 @@ ol {
 
 }
 
-li:hover {
-	color: #abc6c3;
-}
+
 .clicked {
 	text-decoration: line-through;
 	color:red;
