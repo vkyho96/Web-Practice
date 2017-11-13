@@ -23,6 +23,29 @@ header p {
 header p {
 	color:#fff;
 	font-size:48px;
-
 }
 
+#play-message {
+	font-size:48px;
+	color:#000;
+}
+
+input {
+	width: 70px;
+	height:50px;
+	border: 1px #8dc63f solid; 
+	margin-bottom: 10px;
+}
+
+.button {
+	background-color:#8dc63f;
+	padding: 30px 90px;
+	border: none;
+	color:#fff;
+}
+
+#reset {
+	margin-top:5px;
+	padding: 30px 210px;
+	background-color:#db0e11;
+}
